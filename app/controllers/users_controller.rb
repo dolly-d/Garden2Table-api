@@ -1,6 +1,4 @@
 class UsersController < ApplicationController
-    has_many :userveggies
-    has_many :vegetables, through: :userveggies
     
     def index
         @users = User.all
