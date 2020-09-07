@@ -15,5 +15,5 @@ class VegetablesController < ApplicationController
     def vegetable_params
         params.require(:vegetable).permit(:name,:facts,:image)
     end
-    
+
 end

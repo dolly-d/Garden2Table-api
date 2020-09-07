@@ -1,7 +1,7 @@
 class UserveggiesController < ApplicationController
 
     def index
-        userveggies = Userveggies.all
+        userveggies = Userveggie.all
         render json: userveggies
 
     end
