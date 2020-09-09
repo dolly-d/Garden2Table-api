@@ -4,8 +4,6 @@ class CreateRecipes < ActiveRecord::Migration[6.0]
       t.string :title
       t.string :ingredients
       t.string :instructions
-      t.integer :likes
-      t.integer :dislikes
 
       t.timestamps
     end

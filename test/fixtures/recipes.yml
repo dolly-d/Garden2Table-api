@@ -4,12 +4,8 @@ one:
   title: MyString
   ingredients: MyString
   instructions: MyString
-  likes: 1
-  dislikes: 1
 
 two:
   title: MyString
   ingredients: MyString
   instructions: MyString
-  likes: 1
-  dislikes: 1

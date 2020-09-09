@@ -1,4 +1,4 @@
 class Vegetable < ApplicationRecord
-    has_many :veggierecipes
-    has_many :recipes, through: :veggierecipes
+    # has_many :recipes
+#    accepts_nested_attributes_for :recipes
 end

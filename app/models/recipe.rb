@@ -1,4 +1,3 @@
 class Recipe < ApplicationRecord
-    has_many :veggierecipes
-    has_many :vegetables, through: :veggierecipes
+    belongs_to :vegetables
 end

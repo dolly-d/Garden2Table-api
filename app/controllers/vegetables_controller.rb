@@ -13,7 +13,9 @@ class VegetablesController < ApplicationController
     private
 
     def vegetable_params
-        params.require(:vegetable).permit(:name,:facts,:image)
+        params.require(:vegetable).permit(:name, :facts, :image, 
+            recipes_attributes: [title:, ingredients:, instructions:]
+        )
     end
 
 end
